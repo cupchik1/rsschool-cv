@@ -26,3 +26,5 @@ let x = +prompt("Введите число, которое нужно возве
 let n = +prompt("Введите степень:", "");
 alert(pow(x, n));
 ```
+
+## Work Experience
