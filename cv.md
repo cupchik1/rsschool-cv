@@ -28,3 +28,12 @@ alert(pow(x, n));
 ```
 
 ## Work Experience
+
+## Education
++ Odesa Polytechnic National University
+    + Computer engineering
++ Courses:
+    + [HTML Academy](https://htmlacademy.ru/)
+    + [JavaScript Manual](https://learn.javascript.ru/)
+    + RS School Course JavaScript/Front-end. Stage 0.
+    + [GoIT marathon](https://m.goit.global/ua/?utm_source=ref&utm_medium=ref&utm_campaign=mu)
