@@ -15,3 +15,14 @@ I am purposeful, hardworking, attentive, able to learn quickly. After successful
 + CSS3
 + GIT
 + JavaScript Basic
+
+## Code Example
+```
+function pow(x, n) {
+  return x ** n;
+}
+
+let x = +prompt("Введите число, которое нужно возвести в степень: ", "");
+let n = +prompt("Введите степень:", "");
+alert(pow(x, n));
+```
