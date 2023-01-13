@@ -22,8 +22,8 @@ function pow(x, n) {
   return x ** n;
 }
 
-let x = +prompt("Введите число, которое нужно возвести в степень: ", "");
-let n = +prompt("Введите степень:", "");
+let x = +prompt("Input number: ", "");
+let n = +prompt("Input power:", "");
 alert(pow(x, n));
 ```
 
