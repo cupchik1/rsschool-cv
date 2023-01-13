@@ -37,3 +37,8 @@ alert(pow(x, n));
     + [JavaScript Manual](https://learn.javascript.ru/)
     + RS School Course JavaScript/Front-end. Stage 0.
     + [GoIT marathon](https://m.goit.global/ua/?utm_source=ref&utm_medium=ref&utm_campaign=mu)
+
+  ## Languages
+  + **Russian** - native
+  + **Ukrainian** - native
+  + **English** - B1 
