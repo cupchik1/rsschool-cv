@@ -6,14 +6,16 @@ body {
   font-family: "Carme", sans-serif;
   font-family: "Mohave", sans-serif;
   font-family: "Raleway", sans-serif;
-  width: 1190px;
-  margin: 0 auto;
-  background-color:  #DEDEDE;
+  background-color: #dedede;
 }
 
-.wrapper{
-  background-color: #FBFBFB;
+.wrapper {
+  background-color: #fbfbfb;
+  width: 1190px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .container {
   display: flex;
   flex-direction: row-reverse;
@@ -35,15 +37,69 @@ body {
 }
 
 .nav-link {
-padding: 0 10px;
-line-height: 21px;
-text-decoration: none;
-font-family: "Raleway";
-font-weight: 700;
-font-size: 15px;
-text-transform: uppercase;
-color:black;
-
+  padding: 0 10px;
+  line-height: 21px;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
 }
 
+/* Sidebar */
 
+.sidebar {
+  width: 472px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.name-container {
+  font-family: "Mohave";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 61px;
+  text-transform: uppercase;
+}
+
+.surname-container {
+  font-family: "Mohave";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  hyphens: none;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-bottom: 72px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 124px;
+}
+
+.education {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.main-container {
+  padding: 180px 40px 28px 40px;
+  width: 636px;
+}
