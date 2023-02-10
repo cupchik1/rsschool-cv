@@ -8,6 +8,42 @@ body {
   font-family: "Raleway", sans-serif;
   width: 1190px;
   margin: 0 auto;
-  background-color: #DEDEDE;
+  background-color:  #DEDEDE;
 }
+
+.wrapper{
+  background-color: #FBFBFB;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav {
+  line-height: 72px;
+  border-bottom: 2px solid black;
+}
+
+.nav-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px;
+  padding-right: 30px;
+}
+
+.nav-link {
+padding: 0 10px;
+line-height: 21px;
+text-decoration: none;
+font-family: "Raleway";
+font-weight: 700;
+font-size: 15px;
+text-transform: uppercase;
+color:black;
+
+}
+
 
