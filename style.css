@@ -89,16 +89,151 @@ body {
   flex-direction: column;
   align-items: flex-end;
   padding-right: 124px;
+  padding-bottom: 84px;
+
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.education {
+.education-list {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 18px;
+}
+
+.education-content {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
+}
+
+.ed-list-item,
+.university-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.university-name,
+.speciality-name {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.ed-inside-list-item,
+.speciality-name,
+.courses-list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.courses-container {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.courses-list {
+  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.courses-link {
+  text-decoration: none;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 124px;
+  padding-bottom: 92px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.skills-content {
+  margin: 0px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+
   text-transform: uppercase;
 }
 
+.skills-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.skills-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.skill-level {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 124px;
+  padding-bottom: 104px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contacts-content {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.contacts-list{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contacts-link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+/* Main content */
 .main-container {
   padding: 180px 40px 28px 40px;
   width: 636px;
