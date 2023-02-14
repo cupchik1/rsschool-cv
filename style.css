@@ -161,7 +161,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   padding-right: 124px;
-  padding-bottom: 92px;
+  padding-bottom: 84px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -216,13 +216,13 @@ body {
   font-size: 30px;
 }
 
-.contacts-list{
+.contacts-list {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
-.contacts-link{
+.contacts-link {
   text-decoration: none;
   color: #000000;
 }
@@ -235,6 +235,52 @@ body {
 }
 /* Main content */
 .main-container {
-  padding: 180px 40px 28px 40px;
+  padding: 68px 40px 28px 40px;
   width: 636px;
+}
+
+.vacancy-name {
+  font-family: "Carme";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.about-me-content {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+.language-content {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  margin: 0px;
+  margin-bottom: 60px;
+}
+
+.language-title {
+  font-weight: 700;
+  font-size: 15px;
 }
