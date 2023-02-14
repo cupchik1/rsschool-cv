@@ -354,6 +354,7 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   padding: 40px;
+  
 }
 
 .logo-container {
@@ -362,4 +363,9 @@ body {
 
 .footer-content{
   margin: 0px;
+}
+
+.github-link{
+  text-decoration: none;
+  color: #000000;
 }
