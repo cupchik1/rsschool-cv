@@ -1,12 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carme&family=Mohave&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="navigation-container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="list-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="list-item">
+                <a href="#about-me" class="nav-link">About me</a>
+              </li>
+              <li class="list-item">
+                <a href="#tech-skills" class="nav-link">Tech Skills</a>
+              </li>
+              <li class="list-item">
+                <a href="#code-example" class="nav-link">Code Example</a>
+              </li>
+              <li class="list-item">
+                <a href="#work-experience" class="nav-link">Work Experience</a>
+              </li>
+              <li class="list-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="list-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="main-container">
+            <!-- About me -->
+            <section class="about-me-container" id="about-me">
+              <p class="vacancy-name">Front-end developer</p>
+              <h2 class="section-title">About me</h2>
+              <p class="about-me-content">
+                I am purposeful, hardworking, attentive, able to learn quickly.
+                After successful passing the frontend marathon, I got the idea
+                to work in this IT field, so now I’m studying and learning new
+                things on the course from RS School.
+              </p>
+            </section>
+
+            <!-- Languages -->
+            <section class="language-container" id="languages">
+              <h2 class="section-title">Languages</h2>
+              <ul class="language-content">
+                <li><span class="language-title">Russian</span> - native</li>
+                <li><span class="language-title">Ukrainian</span> - native</li>
+                <li><span class="language-title">English</span> - B1</li>
+              </ul>
+            </section>
+
+            <!-- Work experience -->
+            <section class="work-container" id="work-experience">
+              <h2 class="section-title">Work experience</h2>
+              <p class="job-title">Your job title</p>
+              <p class="company-title">
+                <span class="company-name">Company name</span> | 2032 - 2034
+              </p>
+              <p class="work-content">
+                Lorem Ipsum is simply dummy texts of the printing and tpesetting
+                on industry on the Ipsums has been the industry's standards
+                dummy text evers since the 1500s when on the lorem unknown
+                printer took that galley of type lorem.
+              </p>
+              <ul class="work-duties-list">
+                <li>
+                  There are many lorem ipsum dolor sit amlet dummy variations
+                  passages
+                </li>
+                <li>
+                  Majority have suffered of dummyalteration industryin dolor sit
+                  amlet
+                </li>
+                <li>
+                  Standard dummy text sit amletloremevers since the 1500s when
+                  color
+                </li>
+              </ul>
+              <p class="job-title">Your job title</p>
+              <p class="company-title">
+                <span class="company-name">Company name</span> | 2032 - 2034
+              </p>
+              <p class="work-content">
+                Lorem Ipsum is simply dummy texts of the printing and tpesetting
+                on industry on the Ipsums has been the industry's standards
+                dummy text evers since the 1500s when on the lorem unknown
+                printer took that galley of type lorem.
+              </p>
+              <ul class="work-duties-list">
+                <li>
+                  There are many lorem ipsum dolor sit amlet dummy variations
+                  passages
+                </li>
+                <li>
+                  Majority have suffered of dummyalteration industryin dolor sit
+                  amlet
+                </li>
+                <li>
+                  Standard dummy text sit amletloremevers since the 1500s when
+                  color
+                </li>
+              </ul>
+            </section>
+
+            <!-- Code example -->
+            <section class="code-container" id="code-example">
+              <h2 class="section-title">Code example</h2>
+              <pre class="function">
+function pow(x, n) {
+return x ** n;
+}
+            
+let x = +prompt("Input number: ", "");
+let n = +prompt("Input power:", "");
+alert(pow(x, n));
+          </pre
+              >
+            </section>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="sidebar">
+            <!-- Profile -->
+            <section class="profile-container" id="profile">
+              <h2>
+                <span class="name-container">Alina </span
+                ><span class="surname-container"
+                  ><br>
+                  Bezuhla</span
+                >
+              </h2>
+            </section>
+
+            <div class="photo-container">
+              <img src="./assets/img/photo.png" alt="my photo">
+            </div>
+
+            <!-- Education -->
+            <section class="education-container" id="education">
+              <h2><span class="education-content">Education</span></h2>
+
+              <p class="university-name">
+                Odesa Polytechnic National University
+              </p>
+              <p class="speciality-name">Computer engineering</p>
+              <ul class="education-list">
+                <li class="ed-list-item">
+                  <span class="courses-container">Courses</span>
+                  <ul class="courses-list">
+                    <li class="courses-list-item">
+                      <a class="courses-link" href="https://htmlacademy.ru/"
+                        >HTML Academy</a
+                      >
+                    </li>
+                    <li class="courses-list-item">
+                      <a
+                        class="courses-link"
+                        href="https://learn.javascript.ru/"
+                        >JavaScript Manual</a
+                      >
+                    </li>
+                    <li class="courses-list-item">
+                      <p class="courses-link">RS School Front-end. Stage 0.</p>
+                    </li>
+                    <li class="courses-list-item">
+                      <a
+                        class="courses-link"
+                        href="https://m.goit.global/ua/?utm_source=ref&utm_medium=ref&utm_campaign=mu"
+                        >GoIT marathon</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Tech skills -->
+            <section class="skills-container">
+            <h2><span class="skills-title">Tech skills</span></h2>
+            <div class="skills-content" id="tech-skills">
+              <div class="skill-level">
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+              </div>
+              <ul class="skills-list">
+                <li class="skills-list-item">Markdown</li>
+                <li class="skills-list-item">C++</li>
+                <li class="skills-list-item">HTML5</li>
+                <li class="skills-list-item">CSS3</li>
+                <li class="skills-list-item">GIT</li>
+                <li class="skills-list-item">JavaScript Basic</li>
+              </ul>
+            </div>
+          </section>
+
+            <!-- Contacts -->
+            <section class="contacts-container" id="contacts">
+              <h2><span class="contacts-content">Contacts</span></h2>
+              <ul class="contacts-list">
+                <li class="contacts-list-item">
+                  <a
+                    class="contacts-link"
+                    href="mailto:alinabezuglaya123@gmail.com"
+                    >alinabezuglaya123@gmail.com</a
+                  >
+                </li>
+                <li class="contacts-list-item">
+                  <a class="contacts-link" href="https://github.com/cupchik1"
+                    ><img src="/assets/img/github.svg" alt="github logo"
+                  ></a>
+                </li>
+              </ul>
+            </section>
+          </aside>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <p class="footer-content">© 2023 <a class="github-link" href="https://github.com/cupchik1">cupchik1</a> <a class="logo-container" href="https://rs.school/js/"><img class="rs-school-anchor" src="/assets/img/rs_school_js.svg" alt="rs-school-logo"></a></p>
+                    
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
