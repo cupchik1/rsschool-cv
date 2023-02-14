@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" href="./assets/img/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Carme&family=Mohave&family=Raleway:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
   <body>
-    <section class="wrapper">
+    <div class="wrapper">
       <header class="header">
         <div class="navigation-container">
           <nav class="nav">
@@ -144,18 +143,18 @@ alert(pow(x, n));
           <aside class="sidebar">
             <!-- Profile -->
             <section class="profile-container" id="profile">
-              <h1>
+              <h2>
                 <span class="name-container">Alina </span
                 ><span class="surname-container"
-                  ><br />
+                  ><br>
                   Bezuhla</span
                 >
-              </h1>
+              </h2>
             </section>
 
-            <section class="photo-container">
-              <img src="./assets/img/photo.png" alt="my photo" />
-            </section>
+            <div class="photo-container">
+              <img src="./assets/img/photo.png" alt="my photo">
+            </div>
 
             <!-- Education -->
             <section class="education-container" id="education">
@@ -197,47 +196,51 @@ alert(pow(x, n));
             </section>
 
             <!-- Tech skills -->
-            <section class="skills-container" id="tech-skills">
-              <h2><span class="skills-content">Tech skills</span></h2>
+            <section class="skills-container">
+            <h2><span class="skills-title">Tech skills</span></h2>
+            <div class="skills-content" id="tech-skills">
+              <div class="skill-level">
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+                <img
+                  class="vector"
+                  src="./assets/img/tech-skills-item.svg"
+                  alt="skill level"
+                >
+              </div>
               <ul class="skills-list">
                 <li class="skills-list-item">Markdown</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
                 <li class="skills-list-item">C++</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
                 <li class="skills-list-item">HTML5</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
                 <li class="skills-list-item">CSS3</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
                 <li class="skills-list-item">GIT</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
                 <li class="skills-list-item">JavaScript Basic</li>
-                <img
-                  class="skill-level"
-                  src="./assets/img/tech-skills-item.svg"
-                  alt="skill level"
-                />
               </ul>
-            </section>
+            </div>
+          </section>
 
             <!-- Contacts -->
             <section class="contacts-container" id="contacts">
@@ -253,7 +256,7 @@ alert(pow(x, n));
                 <li class="contacts-list-item">
                   <a class="contacts-link" href="https://github.com/cupchik1"
                     ><img src="/assets/img/github.svg" alt="github logo"
-                  /></a>
+                  ></a>
                 </li>
               </ul>
             </section>
@@ -263,6 +266,6 @@ alert(pow(x, n));
       <footer class="footer">
         <div class="container"></div>
       </footer>
-    </section>
+    </div>
   </body>
 </html>

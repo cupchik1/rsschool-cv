@@ -142,7 +142,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   text-transform: uppercase;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 
 .courses-list {
@@ -158,10 +158,10 @@ body {
   margin-bottom: 10px;
 }
 
-.skills-container {
+.skills-content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
   padding-right: 124px;
   padding-bottom: 84px;
 
@@ -171,8 +171,12 @@ body {
   font-size: 15px;
 }
 
-.skills-content {
+.skills-title {
   margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 124px;
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
@@ -185,18 +189,26 @@ body {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  
 }
 
 .skills-list-item {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .skill-level {
+  padding: 0px;
+  padding-right: 16px;
+}
+
+.vector {
   display: flex;
-  padding-bottom: 20px;
+  flex-direction: column;
+  padding-bottom: 27px;
+  justify-content: center;
 }
 
 .contacts-container {
@@ -319,11 +331,12 @@ body {
   margin-left: 40px;
 }
 
-.work-duties-list{
+.work-duties-list {
   margin-left: 40px;
+  margin-bottom: 24px;
 }
 
-.function{
+.function {
   margin: 0px;
   margin-left: 40px;
   font-size: 15px;
