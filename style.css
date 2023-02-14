@@ -51,6 +51,8 @@ body {
 
 .sidebar {
   width: 472px;
+  border-right: 2px solid black;
+  margin-right: 40px;
 }
 
 .profile-container {
@@ -235,7 +237,7 @@ body {
 }
 /* Main content */
 .main-container {
-  padding: 68px 40px 28px 40px;
+  padding: 68px 40px 28px 0px;
   width: 636px;
 }
 
@@ -259,6 +261,7 @@ body {
   text-transform: uppercase;
   margin: 0px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .about-me-content {
@@ -268,19 +271,60 @@ body {
   font-size: 15px;
   margin: 0px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
-.language-content {
+.language-container {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+}
 
+.language-content {
   margin: 0px;
   margin-bottom: 60px;
+  margin-left: 40px;
 }
 
 .language-title {
   font-weight: 700;
+}
+
+.work-container {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+.job-title {
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.company-title {
+  margin: 0px;
+  margin-left: 40px;
+}
+.company-name {
+  text-transform: uppercase;
+}
+
+.work-content {
+  margin: 0px;
+  margin-left: 40px;
+}
+
+.work-duties-list{
+  margin-left: 40px;
+}
+
+.function{
+  margin: 0px;
+  margin-left: 40px;
   font-size: 15px;
 }
