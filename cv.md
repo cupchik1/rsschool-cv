@@ -43,3 +43,7 @@ function countPixels(k) {
   return allPixelsCount;
 }
 ```
+
+## Work Experience
+
+- [**CV**](https://cupchik1.github.io/rsschool-cv/cv)
