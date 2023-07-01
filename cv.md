@@ -9,4 +9,15 @@
 ## About me
 
 I am committed to becoming a competent Frontend Developer, and I have been investing significant time and effort into learning the web technologies.
+
 I am a quick learner and a problem-solver, and I enjoy working collaboratively with others. I am confident that my passion for Frontend development and my dedication to learning and improving will make me a valuable addition to any team.
+
+## Tech Skills
+
+- Markdown
+- HTML5
+- CSS3
+- Git
+- JavaScript
+- C++
+- Python
