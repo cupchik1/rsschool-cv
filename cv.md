@@ -55,6 +55,7 @@ function countPixels(k) {
 - Courses:
   - [JS/FE Pre-School 2023Q2](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)
   - [GoIT Marathon](https://m.goit.global/ua/?utm_source=ref&utm_medium=ref&utm_campaign=mu)
+  - [Python Scholarship](https://prjctr.com/course/python-beginning-scholarship?utm_source=cat_dou&utm_medium=referral&utm_campaign=python_free&utm_term=Dev_ds#curators)
 
 ## Languages
 
