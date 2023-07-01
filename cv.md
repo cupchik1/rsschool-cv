@@ -5,6 +5,7 @@
 - **Email:** alinabezuglaya123@gmail.com
 - **GitHub:** [cupchik1](https://github.com/cupchik1)
 - **LinkedIn:** [alina-bezuhla](https://www.linkedin.com/in/alina-bezuhla/)
+- **Discord:** Alina (@cupchik1)
 
 ## About me
 
@@ -21,3 +22,24 @@ I am a quick learner and a problem-solver, and I enjoy working collaboratively w
 - JavaScript
 - C++
 - Python
+
+## Code Example
+
+```
+let pixelsInsideCount = 0;
+let pixelsOutsideCount = 0;
+let allPixelsCount = 0;
+
+const bridge = 1;
+
+function countPixels(k) {
+  if (k > 1)
+  pixelsInsideCount = 4 * (k - 1);
+  else
+    pixelsInsideCount = 1;
+
+  pixelsOutsideCount = 4 * (k + 3) - 7
+  allPixelsCount = pixelsInsideCount + bridge + pixelsOutsideCount;
+  return allPixelsCount;
+}
+```
