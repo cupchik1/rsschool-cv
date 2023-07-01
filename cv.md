@@ -47,3 +47,11 @@ function countPixels(k) {
 ## Work Experience
 
 - [**CV**](https://cupchik1.github.io/rsschool-cv/cv)
+
+## Education
+
+- Odesa Polytechnic National University
+  - Computer engineering
+- Courses:
+  - [JS/FE Pre-School 2023Q2](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)
+  - [GoIT Marathon](https://m.goit.global/ua/?utm_source=ref&utm_medium=ref&utm_campaign=mu)
