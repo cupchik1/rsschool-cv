@@ -84,5 +84,33 @@
         <li><a href="https://cupchik1.github.io/rsschool-cv/cv">CV</a></li>
       </ul>
     </section>
+
+    <!-- Code Example -->
+    <section>
+      <h2>Code Example</h2>
+      <p>
+        <a href="https://www.codewars.com/kata/63d54b5d05992e0046752389"
+          >7 kyu Asperand pixel counting
+        </a>
+      </p>
+      <pre>
+let pixelsInsideCount = 0;
+let pixelsOutsideCount = 0;
+let allPixelsCount = 0;
+
+const bridge = 1;
+
+function countPixels(k) {
+  if (k > 1)
+  pixelsInsideCount = 4 * (k - 1);
+  else
+    pixelsInsideCount = 1;
+
+  pixelsOutsideCount = 4 * (k + 3) - 7
+  allPixelsCount = pixelsInsideCount + bridge + pixelsOutsideCount;
+  return allPixelsCount;
+}
+      </pre>
+    </section>
   </body>
 </html>
