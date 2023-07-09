@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    >
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="">resume</a></li>
-          <li><a href="">about</a></li>
-          <li><a href="">portfolio</a></li>
+          <li><a href="#about-me">about me</a></li>
+          <li><a href="#contacts">contacts</a></li>
+          <li><a href="#tech-skills">tech skills</a></li>
+          <li><a href="#code-example">code example</a></li>
+          <li><a href="#work-experience">work experience</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#languages">languages</a></li>
         </ul>
       </nav>
     </header>
@@ -26,12 +30,13 @@
       src="./assets/img/photo.jpg"
       alt="Girl in glasses with flowing hair"
       width="90"
-    />
+    >
 
     <main>
       <!-- About me -->
-      <section>
+      <section id="about-me">
         <h1>Alina Bezuhla</h1>
+        <h2>About me</h2>
         <p>
           I am committed to becoming a competent Frontend Developer, and I have
           been investing significant time and effort into learning the web
@@ -43,7 +48,7 @@
       </section>
 
       <!-- Contacts -->
-      <section>
+      <section id="contacts">
         <h2>Contacts</h2>
         <ul>
           <li>
@@ -57,7 +62,7 @@
                 src="./assets/img/github-icon.svg"
                 alt="Github icon"
                 width="25"
-            /></a>
+            ></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/alina-bezuhla/"
@@ -65,7 +70,7 @@
                 src="./assets/img/linkedin-icon.svg"
                 alt="Linkedin icon"
                 width="25"
-            /></a>
+            ></a>
           </li>
           <li>
             <a href="https://discordapp.com/users/the_x_sparrow"
@@ -73,21 +78,13 @@
                 src="./assets/img/discord-icon.svg"
                 alt="Discord icon"
                 width="25"
-            /></a>
+            ></a>
           </li>
         </ul>
       </section>
 
-      <!-- Work experience -->
-      <section>
-        <h2>Work Experience</h2>
-        <ul>
-          <li><a href="https://cupchik1.github.io/rsschool-cv/cv">CV</a></li>
-        </ul>
-      </section>
-
       <!-- Code Example -->
-      <section>
+      <section id="code-example">
         <h2>Code Example</h2>
         <p>
           <a href="https://www.codewars.com/kata/63d54b5d05992e0046752389"
@@ -116,7 +113,7 @@ function countPixels(k) {
       </section>
 
       <!-- Work Experience -->
-      <section>
+      <section id="work-experience">
         <h2>Work Experience</h2>
         <ul>
           <li>
@@ -126,7 +123,7 @@ function countPixels(k) {
       </section>
 
       <!-- Tech Skills -->
-      <section>
+      <section id="tech-skills">
         <h2>Tech Skills</h2>
         <ul>
           <li>Markdown</li>
@@ -140,7 +137,7 @@ function countPixels(k) {
       </section>
 
       <!-- Languages -->
-      <section>
+      <section id="languages">
         <h2>Languages</h2>
         <ul>
           <li>Russian - native</li>
@@ -149,13 +146,13 @@ function countPixels(k) {
             English - C1. The results of my online testing from
             <a href="https://www.efset.org/cert/voL8aD"
               ><img src="./assets/img/efset-logo.svg" alt="Efset logo"
-            /></a>
+            ></a>
           </li>
         </ul>
       </section>
 
       <!-- Education -->
-      <aside>
+      <aside id="education">
         <h2>Education</h2>
         <ul>
           <li>
@@ -163,7 +160,7 @@ function countPixels(k) {
               src="./assets/img/education-rectange1.png"
               alt="Decorative pink rectangle "
               width="28"
-            />
+            >
             <h3>Odesa Polytechnic National University</h3>
             <h4>Computer engineering</h4>
           </li>
@@ -172,7 +169,7 @@ function countPixels(k) {
               src="./assets/img/education-rectange2.png"
               alt="Decorative blue rectangle"
               width="28"
-            />
+            >
             <h3>JS/FE Pre-School 2023Q2</h3>
             <h4>RS School</h4>
           </li>
@@ -181,7 +178,7 @@ function countPixels(k) {
               src="./assets/img/education-rectange3.png"
               alt="Decorative orange rectangle"
               width="28"
-            />
+            >
             <h3>HTML and CSS Basics Marathon</h3>
             <h4>GoIT</h4>
           </li>
@@ -190,7 +187,7 @@ function countPixels(k) {
               src="./assets/img/education-rectange4.png"
               alt="Decorative yellow rectangle"
               width="28"
-            />
+            >
             <h3>Python Scholarship</h3>
             <h4>Projector</h4>
           </li>
@@ -201,14 +198,14 @@ function countPixels(k) {
     <footer>
       <a href="https://github.com/cupchik1"
         ><img src="./assets/img/github-icon.svg" alt="Github icon" width="90"
-      /></a>
+      ></a>
       <p>© 2023</p>
       <a href="https://rs.school/js/"
         ><img
           src="./assets/img/rs-school-js.svg"
           alt="RS School JS logo"
           height="90"
-      /></a>
+      ></a>
     </footer>
   </body>
 </html>
