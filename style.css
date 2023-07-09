@@ -208,3 +208,14 @@ section{
   font-weight: 400;
   line-height: 140%;
 }
+
+.footer-container{
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container p{
+  display: flex;
+  flex-direction: column-reverse;
+}
