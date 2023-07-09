@@ -6,12 +6,210 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
   </head>
   <body>
-    <p>Some text</p>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about-me">about me</a></li>
+          <li><a href="#contacts">contacts</a></li>
+          <li><a href="#tech-skills">tech skills</a></li>
+          <li><a href="#code-example">code example</a></li>
+          <li><a href="#work-experience">work experience</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#languages">languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <img class="my-photo"
+      src="./assets/img/photo.jpg"
+      alt="Girl in glasses with flowing hair"
+      width="90"
+    >
+    <main>
+      <div class="about-me-contacts-block">
+      <!-- About me -->
+      <section id="about-me" class="about-me-container">
+        <h1 class="name">Alina Bezuhla</h1>
+        <p class="isAvailable"><img src="./assets/img/isAvailable.svg" alt="Switcher isAvailable" width="29">Available</p>
+        <h2 class="visually-hidden">About me</h2>
+        <p class="about-me-description">
+          I am committed to becoming a competent Frontend Developer, and I have
+          been investing significant time and effort into learning the web
+          technologies. I am a quick learner and a problem-solver, and I enjoy
+          working collaboratively with others. I am confident that my passion
+          for Frontend development and my dedication to learning and improving
+          will make me a valuable addition to any team.
+        </p>
+      </section>
+
+      <!-- Contacts -->
+      <section id="contacts" class="contacts-container">
+        <h2 class="visually-hidden">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="email-contacts">
+            <a href="mailto:alinabezuglaya123@gmail.com" class="email-link"
+              >alinabezuglaya123@gmail.com</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://github.com/cupchik1"
+              ><img
+                src="./assets/img/github-icon.svg"
+                alt="Github icon"
+                width="25"
+            ></a>
+          </li>
+          <li class="list-item">
+            <a href="https://www.linkedin.com/in/alina-bezuhla/"
+              ><img
+                src="./assets/img/linkedin-icon.svg"
+                alt="Linkedin icon"
+                width="25"
+            ></a>
+          </li>
+          <li class="list-item">
+            <a href="https://discordapp.com/users/the_x_sparrow"
+              ><img
+                src="./assets/img/discord-icon.svg"
+                alt="Discord icon"
+                width="25"
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="wrapper">
+      <div class="work-code-container">
+      <!-- Code Example -->
+      <section id="code-example" class="code-example-container">
+        <h2 class="section-title">Code Example</h2>
+        <p>
+          <a href="https://www.codewars.com/kata/63d54b5d05992e0046752389"
+            class="code-example-link">7 kyu Asperand pixel counting
+          </a>
+        </p>
+        <pre>
+let pixelsInsideCount = 0;
+let pixelsOutsideCount = 0;
+let allPixelsCount = 0;
+
+const bridge = 1;
+
+function countPixels(k) {
+  if (k > 1)
+  pixelsInsideCount = 4 * (k - 1);
+  else
+    pixelsInsideCount = 1;
+
+  pixelsOutsideCount = 4 * (k + 3) - 7
+  allPixelsCount = pixelsInsideCount + bridge + pixelsOutsideCount;
+  return allPixelsCount;
+}
+      </pre
+        >
+      </section>
+
+      <!-- Work Experience -->
+      <section id="work-experience">
+        <h2 class="section-title">Work Experience</h2>
+        <ul class="list">
+          <li>
+            <a href="https://cupchik1.github.io/rsschool-cv/cv" class="work-link"><h3>CV</h3></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+      <!-- Education -->
+      <aside id="education" class="education-container">
+        <h2 class="section-title">Education</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./assets/img/education-rectange1.png"
+              alt="Decorative pink rectangle "
+              width="28"
+            >
+            <h3>Computer engineering</h3>
+            <h4>Odesa Polytechnic National University</h4>
+          </li>
+          <li>
+            <img
+              src="./assets/img/education-rectange2.png"
+              alt="Decorative blue rectangle"
+              width="28"
+            >
+            <h3>JS/FE Pre-School 2023Q2</h3>
+            <h4>RS School</h4>
+          </li>
+          <li>
+            <img
+              src="./assets/img/education-rectange3.png"
+              alt="Decorative orange rectangle"
+              width="28"
+            >
+            <h3>HTML and CSS Basics Marathon</h3>
+            <h4>GoIT</h4>
+          </li>
+          <li>
+            <img
+              src="./assets/img/education-rectange4.png"
+              alt="Decorative yellow rectangle"
+              width="28"
+            >
+            <h3>Python Scholarship</h3>
+            <h4>Projector</h4>
+          </li>
+        </ul>
+      </aside>
+      </div>
+      <!-- Tech Skills -->
+      <section id="tech-skills" class="tech-skills-container">
+        <h2 class="section-title">Tech Skills</h2>
+        <ul class="list">
+          <li>Markdown</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Python</li>
+        </ul>
+      </section>
+
+      <!-- Languages -->
+      <section id="languages" class="languages-container">
+        <h2 class="section-title">Languages</h2>
+        <ul class="list">
+          <li>Russian - native</li>
+          <li>Ukrainian - native</li>
+          <li>
+            English - C1. The results of my online testing from
+            <a href="https://www.efset.org/cert/voL8aD"
+              ><img src="./assets/img/efset-logo.svg" alt="Efset logo"
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+ 
+    <footer class="footer-container">
+      <a href="https://github.com/cupchik1"
+        ><img src="./assets/img/github-icon.svg" alt="Github icon" width="90"
+      ></a>
+      <p>© 2023</p>
+      <a href="https://rs.school/js/"
+        ><img
+          src="./assets/img/rs-school-js.svg"
+          alt="RS School JS logo"
+          height="90"
+      ></a>
+    </footer>
   </body>
 </html>
