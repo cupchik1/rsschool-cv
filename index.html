@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
   </head>
   <body>
     <header>
@@ -25,13 +26,12 @@
         </ul>
       </nav>
     </header>
+
     <img class="my-photo"
       src="./assets/img/photo.jpg"
       alt="Girl in glasses with flowing hair"
       width="90"
     >
-
-    <div class="wrapper">
     <main>
       <div class="about-me-contacts-block">
       <!-- About me -->
@@ -85,7 +85,8 @@
         </ul>
       </section>
     </div>
-
+    <div class="wrapper">
+      <div class="work-code-container">
       <!-- Code Example -->
       <section id="code-example" class="code-example-container">
         <h2 class="section-title">Code Example</h2>
@@ -117,45 +118,16 @@ function countPixels(k) {
 
       <!-- Work Experience -->
       <section id="work-experience">
-        <h2>Work Experience</h2>
-        <ul>
+        <h2 class="section-title">Work Experience</h2>
+        <ul class="list">
           <li>
-            <a href="https://cupchik1.github.io/rsschool-cv/cv"><h3>CV</h3></a>
+            <a href="https://cupchik1.github.io/rsschool-cv/cv" class="work-link"><h3>CV</h3></a>
           </li>
         </ul>
       </section>
-
-      <!-- Tech Skills -->
-      <section id="tech-skills">
-        <h2>Tech Skills</h2>
-        <ul>
-          <li>Markdown</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Git</li>
-          <li>JavaScript</li>
-          <li>C++</li>
-          <li>Python</li>
-        </ul>
-      </section>
-
-      <!-- Languages -->
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li>Russian - native</li>
-          <li>Ukrainian - native</li>
-          <li>
-            English - C1. The results of my online testing from
-            <a href="https://www.efset.org/cert/voL8aD"
-              ><img src="./assets/img/efset-logo.svg" alt="Efset logo"
-            ></a>
-          </li>
-        </ul>
-      </section>
-
+    </div>
       <!-- Education -->
-      <aside id="education">
+      <aside id="education" class="education-container">
         <h2>Education</h2>
         <ul>
           <li>
@@ -196,8 +168,37 @@ function countPixels(k) {
           </li>
         </ul>
       </aside>
+      </div>
+      <!-- Tech Skills -->
+      <section id="tech-skills" class="tech-skills-container">
+        <h2 class="section-title">Tech Skills</h2>
+        <ul class="list">
+          <li>Markdown</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Python</li>
+        </ul>
+      </section>
+
+      <!-- Languages -->
+      <section id="languages" class="languages-container">
+        <h2 class="section-title">Languages</h2>
+        <ul class="list">
+          <li>Russian - native</li>
+          <li>Ukrainian - native</li>
+          <li>
+            English - C1. The results of my online testing from
+            <a href="https://www.efset.org/cert/voL8aD"
+              ><img src="./assets/img/efset-logo.svg" alt="Efset logo"
+            ></a>
+          </li>
+        </ul>
+      </section>
     </main>
-  </div>
+ 
     <footer>
       <a href="https://github.com/cupchik1"
         ><img src="./assets/img/github-icon.svg" alt="Github icon" width="90"
