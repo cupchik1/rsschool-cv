@@ -36,7 +36,6 @@ section{
 
 .name{
   margin: 27px 0px 0px 0px;
-  padding-left: 18px;
   font-size: 36px;
   font-weight: 700;
   line-height: 140%;
@@ -57,7 +56,6 @@ section{
 
 .isAvailable{
   margin: 12px 0px 26px 0px;
-  padding-left: 18px;
   display: flex;
   align-items: center;
 
@@ -65,12 +63,10 @@ section{
   line-height: normal;
 }
 
-.about-me-container{
-  margin-left: 150px;
-}
 .about-me-description{
   margin: 0px 0px 52px 0px;
   padding: 20px;
+  padding-left: 0px;
   width: 490px;
 
   font-size: 14px;
@@ -108,4 +104,23 @@ section{
   color: #000000;
   font-size: 14px;
   line-height: 140%;
+}
+
+.code-example-container{
+  margin-top: 0px;
+}
+.section-title {
+  margin: 0px 0px 41px 0px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.code-example-link{
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
 }
