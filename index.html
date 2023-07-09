@@ -33,10 +33,11 @@
 
     <div class="wrapper">
     <main>
+      <div class="about-me-contacts-block">
       <!-- About me -->
-      <section id="about-me">
+      <section id="about-me" class="about-me-container">
         <h1 class="name">Alina Bezuhla</h1>
-        <p><img src="./assets/img/isAvailable.svg" alt="Switcher isAvailable" width="29">Available</p>
+        <p class="isAvailable"><img src="./assets/img/isAvailable.svg" alt="Switcher isAvailable" width="29">Available</p>
         <h2 class="visually-hidden">About me</h2>
         <p class="about-me-description">
           I am committed to becoming a competent Frontend Developer, and I have
@@ -49,15 +50,15 @@
       </section>
 
       <!-- Contacts -->
-      <section id="contacts">
-        <h2>Contacts</h2>
-        <ul>
-          <li>
-            <a href="mailto:alinabezuglaya123@gmail.com"
+      <section id="contacts" class="contacts-container">
+        <h2 class="visually-hidden">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="email-contacts">
+            <a href="mailto:alinabezuglaya123@gmail.com" class="email-link"
               >alinabezuglaya123@gmail.com</a
             >
           </li>
-          <li>
+          <li class="list-item">
             <a href="https://github.com/cupchik1"
               ><img
                 src="./assets/img/github-icon.svg"
@@ -65,7 +66,7 @@
                 width="25"
             ></a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="https://www.linkedin.com/in/alina-bezuhla/"
               ><img
                 src="./assets/img/linkedin-icon.svg"
@@ -73,7 +74,7 @@
                 width="25"
             ></a>
           </li>
-          <li>
+          <li class="list-item">
             <a href="https://discordapp.com/users/the_x_sparrow"
               ><img
                 src="./assets/img/discord-icon.svg"
@@ -83,7 +84,7 @@
           </li>
         </ul>
       </section>
-
+    </div>
       <!-- Code Example -->
       <section id="code-example">
         <h2>Code Example</h2>
