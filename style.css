@@ -34,15 +34,18 @@ body{
   color: #000000;
   font-weight: 700;
   line-height: normal;
-  transition: filter 0.3s;
+
 }
-.nav-list a:hover{
-  filter:invert(30%);
-}
+
 li a,
 a {
   text-decoration: none;
+    transition: filter 0.3s;
  }
+
+a:hover{
+  filter: invert(30%);
+}
 
 .my-photo,
 section{
@@ -94,7 +97,9 @@ section{
   display: flex;
   margin: 27px 0px 0px 0px;
 }
-
+.work-code-container{
+  margin-right: 230px;
+}
 .about-me-contacts-block{
   display: flex;
 }

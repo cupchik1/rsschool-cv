@@ -64,8 +64,7 @@
             ></a>
           </li>
           <li class="list-item">
-            <a href="https://www.linkedin.com/in/alina-bezuhla/"
-              ><img
+            <a href="https://www.linkedin.com/in/alina-bezuhla/"><img
                 src="./assets/img/linkedin-icon.svg"
                 alt="Linkedin icon"
                 width="25"
@@ -88,27 +87,16 @@
       <section id="code-example" class="code-example-container">
         <h2 class="section-title">Code Example</h2>
         <p>
-          <a href="https://www.codewars.com/kata/63d54b5d05992e0046752389"
-            class="code-example-link">7 kyu Asperand pixel counting
+          <a href="https://www.codewars.com/kata/526571aae218b8ee490006f4"
+            class="code-example-link">6 kyu Bit Counting
           </a>
         </p>
         <pre>
-let pixelsInsideCount = 0;
-let pixelsOutsideCount = 0;
-let allPixelsCount = 0;
-
-const bridge = 1;
-
-function countPixels(k) {
-  if (k > 1)
-  pixelsInsideCount = 4 * (k - 1);
-  else
-    pixelsInsideCount = 1;
-
-  pixelsOutsideCount = 4 * (k + 3) - 7
-  allPixelsCount = pixelsInsideCount + bridge + pixelsOutsideCount;
-  return allPixelsCount;
-}
+var countBits = function (n) {
+let bits = n.toString(2).split('');
+let result = bits.filter((bit) => bit > 0);
+return result.length;
+};
       </pre>
       </section>
 
@@ -117,7 +105,23 @@ function countPixels(k) {
         <h2 class="section-title">Work Experience</h2>
         <ul class="list">
           <li>
-            <a href="https://cupchik1.github.io/rsschool-cv/cv" class="work-link"><h3>CV</h3></a>
+            <a href="https://cupchik1.github.io/cssMemeSlider/cssMemeSlider/" class="work-link"><h3>CssMemeSlider</h3></a>
+          </li>
+          <li><a href="https://rolling-scopes-school.github.io/cupchik1-JSFEPRESCHOOL2023Q2/audio-player/" class="work-link"><h3>AudioPlayer</h3></a></li>
+          <li>
+            <a href="https://rolling-scopes-school.github.io/cupchik1-JSFEPRESCHOOL2023Q2/image-gallery/" class="work-link">
+              <h3>ImageGallery</h3>
+            </a>
+          </li>
+          <li>
+            <a href="https://rolling-scopes-school.github.io/cupchik1-JSFEPRESCHOOL2023Q2/random-game/" class="work-link">
+              <h3>RandomGame</h3>
+            </a>
+          </li>
+          <li>
+            <a href="https://rolling-scopes-school.github.io/cupchik1-JSFEPRESCHOOL2023Q2/library/" class="work-link">
+              <h3>Library</h3>
+            </a>
           </li>
         </ul>
       </section>
@@ -188,7 +192,7 @@ function countPixels(k) {
           <li>
             English - C1. The results of my online testing from
             <a href="https://www.efset.org/cert/voL8aD"
-              ><img src="./assets/img/efset-logo.svg" alt="Efset logo"
+              ><img src="./assets/img/efset-logo.svg" alt="Efset logo" height="20px"
             ></a>
           </li>
         </ul>
