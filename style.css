@@ -3,11 +3,17 @@ html{
 }
 body{
   margin: 0 auto;
-  width: 1000px;
+  max-width: 1000px;
 
+  background-color: gray;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.body-container {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav-list{
@@ -15,18 +21,23 @@ body{
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
-  margin: 103px 0px 0px 0px;
+  margin: 103px 140px 0px 0px;
   padding: 0px;
 }
 
-.nav-list li{
+.nav-list li:not(:first-child){
   padding-left: 40px;
 
 }
 .nav-list a{
+  font-size: 12px;
   color: #000000;
   font-weight: 700;
   line-height: normal;
+  transition: filter 0.3s;
+}
+.nav-list a:hover{
+  filter:invert(30%);
 }
 li a,
 a {
@@ -86,7 +97,6 @@ section{
 
 .about-me-contacts-block{
   display: flex;
-  justify-content: space-between;
 }
 
 .contacts-list{
@@ -148,6 +158,7 @@ section{
 }
 
 .tech-skills-container .list{
+  max-width: 694px;
   display: flex;
   justify-content: space-between;
 
@@ -177,7 +188,6 @@ section{
 
 .wrapper{
   display: flex;
-  justify-content: space-between;
 }
 
 .education-container{
@@ -210,7 +220,8 @@ section{
 }
 
 .footer-container{
-  margin-left: 170px;
+  max-width: 694px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -218,4 +229,12 @@ section{
 .footer-container p{
   display: flex;
   flex-direction: column-reverse;
+}
+
+.github-logo{
+  width: 50px;
+}
+
+.rsschool-logo{
+  height: 50px;
 }

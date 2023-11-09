@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My minimal CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +13,7 @@
     <link rel="icon" href="./assets/img/favicon.ico">
   </head>
   <body>
+    <div class="body-container">
     <header>
       <nav>
         <ul class="nav-list">
@@ -27,12 +28,8 @@
       </nav>
     </header>
 
-    <img class="my-photo"
-      src="./assets/img/photo.jpg"
-      alt="Girl in glasses with flowing hair"
-      width="90"
-    >
     <main>
+      <img class="my-photo" src="./assets/img/photo.jpg" alt="Girl in glasses with flowing hair" width="90">
       <div class="about-me-contacts-block">
       <!-- About me -->
       <section id="about-me" class="about-me-container">
@@ -112,8 +109,7 @@ function countPixels(k) {
   allPixelsCount = pixelsInsideCount + bridge + pixelsOutsideCount;
   return allPixelsCount;
 }
-      </pre
-        >
+      </pre>
       </section>
 
       <!-- Work Experience -->
@@ -201,7 +197,7 @@ function countPixels(k) {
  
     <footer class="footer-container">
       <a href="https://github.com/cupchik1"
-        ><img src="./assets/img/github-icon.svg" alt="Github icon" width="90"
+        ><img src="./assets/img/github-icon.svg" alt="Github icon" width="90" class="github-logo"
       ></a>
       <p>© 2023</p>
       <a href="https://rs.school/js/"
@@ -209,7 +205,9 @@ function countPixels(k) {
           src="./assets/img/rs-school-js.svg"
           alt="RS School JS logo"
           height="90"
+          class="rsschool-logo"
       ></a>
     </footer>
+    </div>
   </body>
 </html>
